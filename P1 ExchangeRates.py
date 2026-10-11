@@ -15,11 +15,11 @@ class ExchangeRates: #class defined
 
 xx = ExchangeRates() #
 
-amount = (float)(input("Numerical amount to convert: ")) #ask for the amount and turn the text into a number
+amount = (float)(input("How much would you like to convert?: ")) #ask for the amount and turn the text into a number
 
 
 from_currency = input("From which currency? (USD or CAD)").upper()
 to_currency = input("To which currency? (USD or CAD)").upper()
 
 output = xx.convert(amount, from_currency, to_currency)
-print ('Success! You have completed the conversion from', amount, from_currency, 'to', round(output, 2), to_currency)
+print ('Success! You have completed the conversion from $', amount, from_currency, 'to $', round(output, 2),to_currency)
