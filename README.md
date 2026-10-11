@@ -3,12 +3,20 @@ FINE 3000 Assignment 1: Currency Converter USD to CAD using Bank of Canada exang
 
 FINE 3000 - Fall 2026
 
-# The project performs as listed below:
-Reads the Bank of Canada Exchange Rate Excel spreadsheep and takes the latest USD and CAD rate
-The
+# USD/CAD Currency Converter 2025 Rate
 
+## Description
+This code converts monirtary amounts between US dollars (USD) and Canadian dollars (CAD) using the latest rate.
 
-# Result of part 1 and 2:
+## How It Works:
+- Reads the Bank of Canada exchange rate file and takes the latest USD/CAD rate
+- Asks the user for the amount and the 'from' and 'to' currency
+- Converts the amount and prints the result with dollar signs, rounded to the nearest cent
+
+## How to Use:
+Keep the CSV file in the same folder as the code, then run the program and answer the prompts accurately.
+
+### Result of part 1 and 2:
 a) Link to GitHub repository:
 
 b) Output of my code:
